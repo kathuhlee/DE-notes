@@ -1,5 +1,5 @@
 -- week 4 day 1 - Data Engineer Design Patterns at Meta - Growth Accounting
-INSERT INTO user_growth_accoutning
+INSERT INTO user_growth_accounting
 WITH yesterday AS (
         SELECT * FROM users_growth_accounting
 --      WHERE date = DATE ('2023-02-28')
